@@ -8,7 +8,8 @@ To make this work you need to ...
 * install `git`
 * clone this repo
 * run `sbt test`
-* run `sbt "run README.md"`
+* run `sbt "runMain org.tritsch.spark.examples.WordCount README.md"`
+* run `sbt "runMain org.tritsch.spark.examples.CalcPi"`
 
 ---
 
